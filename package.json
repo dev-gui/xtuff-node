@@ -1,0 +1,23 @@
+{
+  "name": "xtuff-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "express": "^4.16.4",
+    "express-rate-limit": "^3.4.1",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.7.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
