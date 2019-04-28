@@ -71,9 +71,7 @@ module.exports = (app) => {
 
     function onListening() {
         const addr = server.address()
-        const bind = typeof addr === 'string' ?
-            'Pipe ' + addr :
-            'Port' + addr.port
+        const bind = typeof addr === 'string' ? 'Pipe ' + addr : 'Port' + addr.port
         debug('Listening on ' + bind)
     }
 
